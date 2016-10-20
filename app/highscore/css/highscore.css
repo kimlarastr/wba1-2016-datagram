@@ -1,0 +1,26 @@
+
+
+table {
+	overflow: scroll;
+	border:none;
+	width:100%;
+}
+td {
+	line-height:20px;
+	font-weight: bold;
+	
+}
+
+
+tr:nth-child(odd) {
+	background-color: #F8F5E4;
+}
+
+.uschrift-hscore{
+	background-color: #E9C20C;
+	text-align: center;
+	padding: 5px 0px 5px 0px;
+}
+.sort-hscore{
+	background-color: #504F48;
+}
