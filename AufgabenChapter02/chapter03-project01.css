@@ -1,0 +1,38 @@
+html{
+    background-color:blue;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+header, footer{
+    color: white;
+    background-color: #3D6271;
+    margin: 0em 4em 0.5em 4em;
+    width: auto;
+    
+}
+article{
+    color: black;
+    background-color: white;
+    margin: 0em 4em 0.5em 4em;
+    font-family: Georgia, serif;
+}
+header{
+    margin-bottom: 20px;
+     
+    
+}
+nav{
+    background-color: aqua;
+}
+h1{
+    font-size: 20px;
+    border: 5px black;
+}
+.shareleiste{
+    border: 2px solid gey;
+    border-radius: 23px;
+    background: grey;
+    width: 300px;
+    padding: 3px 10px;
+}
