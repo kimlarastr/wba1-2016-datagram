@@ -1,0 +1,44 @@
+1 Was ist JSON ?
+
+
+JavaScript Object Notation
+
+- Für die Verwaltung und Interaktion von Daten / Informationen / Ressourcen 
+- Alternative zu XML
+- Sprachunabhängig, performanter und interaktiver Datenformat
+- Selbstbeschreibend
+
+2 Contentanalyse
+#Mindmapping
+
+SYNTAX:
+
+{"menu":[ 
+		{"title":"Quizübersicht", "src":"http:://fubizz.de/res/quizübersicht"}
+		{"title":"Quizrunde", "src":"http:://fubizz.de/res/quizrunde"}
+		{"title":"Highscoreliste", "src":"http:://fubizz.de/res/highscoreliste"}
+
+]}
+
+
+{"quizuebersicht":[
+			{"quiz_id" = "1"}
+		   
+				]
+}
+
+{"Quiz":[
+	{"id":"1","title":"Fc Köln","Inhaber":"Nassir","desc":"blablabla","date":"19.01.91","timer":"1500ms","bewertung":"0","aufrufe":"4",
+	"highscore":{[
+			"position":"1","user":"manfred","punkte":"400"
+									]}}
+	]
+}
+
+
+
+{"Frage":[
+		{"ID":"1","title":"Wer hat gegen Schalke im Jahre 1979, im Finale daneben geschossen ?","Antworten":{["A":"ich","B":"DU","C":"ER","D":"BIRA"]}, "result":"1"}
+		
+		]
+}
